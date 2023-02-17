@@ -1,3 +1,4 @@
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/qqwizzixxxx/HVD/main/HVD%20Team%20Hub.lua"))()
 -- Ссылка на Библиотеку
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 --[[ 
@@ -170,6 +171,30 @@ end)
 
 Section:NewButton("Build A Boat", "Idk", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VIPFirstTime/Fe-Build-A-Boat-Update/main/StepXnC.lua/LoadN.txt"))()
+end)
+
+Section:NewButton("Hide And Seek Extreme", "Idk", function()
+     loadstring(game:HttpGet('https://gist.githubusercontent.com/RavyarTheBest/d0d5f9c3a8c2ca6749dda6d50fddaf00/raw/d05311914c0ab73506de76e91297743ad53097e2/gistfile1.txt'))()
+end)
+
+Section:NewButton("Survive the Killer", "Idk", function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/Kiroftt/Survive-The-Killer/main/Simple'))();
+end)
+
+Section:NewButton("Yba", "Idk", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v3.lua"))()
+end)
+
+Section:NewButton("Driving Empire", "Idk", function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/Faacts/FactsHub/main/Loader'))();
+end)
+
+Section:NewButton("", "Idk", function()
+     
+end)
+
+Section:NewButton("", "Idk", function()
+     
 end)
 
 local Tab = Window:NewTab("ESP")
@@ -817,3 +842,42 @@ Section:NewLabel("Error")
 Section:NewButton("Error", "Scripter qqwizzixxxx", function()
     error("Spam")
 end)
+
+local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Script Hub By qqwizzixxxx";
+    Text = "Good luck";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+
+local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Script";
+    Text = "Some Scripts Need A key";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+
+local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = ".";
+    Text = "Have Fun";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
