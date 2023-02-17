@@ -47,7 +47,7 @@ end)
 
 Section:NewLabel("Jump Hack")
 
-Section:NewSlider("Speed Hack", "Scripter qqwizzixxxx", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+Section:NewSlider("Jump Hack", "Scripter qqwizzixxxx", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
