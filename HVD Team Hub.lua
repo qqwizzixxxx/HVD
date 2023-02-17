@@ -145,10 +145,6 @@ Section:NewButton("infinite yield", "Idk", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-Section:NewButton("infinite yield", "Idk", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-
 Section:NewButton("Prison Life", "Admin", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/prl", true))()
 end)
