@@ -185,11 +185,11 @@ Section:NewButton("Driving Empire", "Idk", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/Faacts/FactsHub/main/Loader'))();
 end)
 
-Section:NewButton("", "Idk", function()
+Section:NewButton("Soon...", "Idk", function()
      
 end)
 
-Section:NewButton("", "Idk", function()
+Section:NewButton("Soon...", "Idk", function()
      
 end)
 
