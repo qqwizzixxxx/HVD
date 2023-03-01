@@ -35,6 +35,12 @@ local colors = {
 -- Создать окно UI
 local Window = Library.CreateLib("HVD Team Hub", "RJTheme7")
 
+local Tab = Window:NewTab("Hello")
+
+local Section = Tab:NewSection("Welcome")
+
+Section:NewLabel("Hello im Ceo Of HVD Team my Name is qqwizzixxxx")
+
 -- Секция
 local Tab = Window:NewTab("Speed")
 
